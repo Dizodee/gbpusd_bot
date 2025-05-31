@@ -1,4 +1,9 @@
 # Byte-compiled / optimized / DLL files
+# Project specific
+query.txt               # Contains your Telegram API keys
+*.h5                    # TensorFlow model files
+/data/                  # If you store any market data locally
+/logs/                  # If you have logging
 __pycache__/
 *.py[cod]
 *$py.class
